@@ -1,8 +1,13 @@
+import Overview from "./Overview/Overview";
 import styles from "./ProfileData.module.css";
 const ProfileData = () => {
   return (
     <div className={styles.container}>
-      <h1>div 2</h1>
+      <div className={styles.heading_container}>
+        <h2>Overview</h2>
+        <div></div>
+      </div>
+      <Overview/>
 
     </div>
   )

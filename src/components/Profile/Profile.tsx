@@ -1,6 +1,8 @@
 import styles from "./Profile.module.css";
 import profileImg from '../../assets/images/project/profile.jpg'
 import linkedInImg from '../../assets/images/social/linkedin.png'
+import gitImg from '../../assets/images/social/github.png'
+
 import phoneImg from '../../assets/images/social/phone.png'
 import emailImg from '../../assets/images/social/email.png'
 
@@ -22,7 +24,7 @@ const Profile = () => {
                 </div>
                 <div className={styles.socialHandleContainer}>
                     <img className={styles.imageContainer} src={linkedInImg} alt="Linkedin" />
-                    <img className={styles.imageContainer} src={linkedInImg} alt="Linkedin" />
+                    <img className={styles.imageContainer} src={gitImg} alt="Linkedin" />
                 </div>
 
             </div>
@@ -47,6 +49,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className={styles.hr1}></div>
+               
                 <div className={styles.profile_info_container}>
                     <div className={styles.profile_info_image_container}>
                         <img src={locImg} alt="Location" />
