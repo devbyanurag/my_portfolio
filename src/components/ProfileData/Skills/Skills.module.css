@@ -1,0 +1,21 @@
+.skill_container {
+  display: flex;
+  padding: 10px 0;
+}
+.skill_img{
+  width: 40px;
+  height: 40px;
+}
+.skill_details_container{
+  margin-left: 20px;
+}
+
+.skill_details_container ul{
+  color: #646464;
+  margin: 5px 0;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  
+}

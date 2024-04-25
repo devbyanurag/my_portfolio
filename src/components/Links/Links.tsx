@@ -21,7 +21,7 @@ const linksData: LinkData[] = [
   { id: 'overview', label: 'Overview', imgSrc: aboutImg },
   { id: 'experience', label: 'Experience', imgSrc: expImg },
   { id: 'skills', label: 'Skills', imgSrc: skillsImg },
-  { id: 'projects', label: 'Projects', imgSrc: projImg },
+  // { id: 'projects', label: 'Projects', imgSrc: projImg },
   { id: 'education', label: 'Education', imgSrc: eduImg },
 ];
 

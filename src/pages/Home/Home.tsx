@@ -6,17 +6,17 @@ import Links from '../../components/Links/Links'
 import { useState } from 'react'
 
 const Home = () => {
-    const [activeLinkId, setActiveLinkId] = useState('about');
+    const [activeLinkId, setActiveLinkId] = useState('overview');
 
     const handleLinkClick = (linkId: string) => {
         setActiveLinkId(linkId);
     };
     return (
         <div className={styles.container}>
-            <img src={bgImg} alt="" className={styles.bgImg} />
+            <img src={bgImg} alt="bg" className={styles.bgImg} />
             <div className={styles.content_container}>
                 <Profile />
-                <ProfileData />
+                <ProfileData selectedComponent={activeLinkId}/>
                 <Links activeLinkId={activeLinkId} onLinkClick={handleLinkClick} />
 
 
