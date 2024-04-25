@@ -3,7 +3,6 @@ import styles from './Links.module.css';
 import aboutImg from '../../assets/images/links_icons/profile.png';
 import expImg from '../../assets/images/links_icons/work_ex.png';
 import skillsImg from '../../assets/images/links_icons/skills.png';
-import projImg from '../../assets/images/links_icons/porjects.png';
 import eduImg from '../../assets/images/links_icons/edu.png';
 
 interface LinkData {
