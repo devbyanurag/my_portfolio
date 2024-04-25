@@ -1,0 +1,12 @@
+.link_container {
+    background-color: white;
+    /* height: 90vh; */
+    flex: 1;
+    margin: 20px;
+  }
+  @media screen and (max-width: 992px) {
+    .link_container {
+      order: 1;
+    }
+  }
+  

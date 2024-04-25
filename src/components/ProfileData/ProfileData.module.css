@@ -1,0 +1,11 @@
+.container {
+    background-color: white;
+    flex: 12;
+    margin: 20px;
+  }
+  @media screen and (max-width: 992px) {
+    .container {
+      order: 3;
+    }
+  }
+  
