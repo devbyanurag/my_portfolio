@@ -1,6 +1,6 @@
 .profile_container {
   background-color: white;
-  
+
   flex: 5;
   margin: 20px;
   display: flex;
@@ -8,132 +8,132 @@
   align-items: center;
   position: relative;
   border-radius: 10px;
-  
-/* width: 90%; */
+
+  /* width: 90%; */
 }
-.profileImg{
-    height: 180px;
-    width: 180px;
-    object-fit: cover;
-    position: absolute;
-    top: -50px;
-    border: 5px solid #BFD8FF;
-    border-radius: 10px;
+.profileImg {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  position: absolute;
+  top: -50px;
+  border: 5px solid #bfd8ff;
+  border-radius: 50%;
 }
-.profile_info_1{
-    padding-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.profile_info_1 {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.profile_info_1 > h2{
-    font-size: 30px;
-    
+.profile_info_1 > h2 {
+  font-size: 30px;
 }
-.role_container{
-    background-color: #F4F6F6;
-    display: flex;
-    justify-content: center;
-    padding: 2px 5px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 14px;
+.role_container {
+  background-color: #f4f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 2px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
 }
-.socialHandleContainer{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+.socialHandleContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.socialHandleContainer .imageContainer{
-    height: 40px;
-    width: 40px;
-    background-color: #F4F6F6;
-    margin: 5px;
-    border-radius: 5px;
+.socialHandleContainer .imageContainer {
+  height: 40px;
+  width: 40px;
+  background-color: #f4f6f6;
+  margin: 5px;
+  border-radius: 5px;
 }
-.socialHandleContainer .imageContainer:hover{
-    cursor: pointer;
+.socialHandleContainer .imageContainer:hover {
+  cursor: pointer;
 }
-.profile_info_2{
-    background-color: #F4F6F6;
-    width: 85%;
-    margin: 15px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 5px;
+.profile_info_2 {
+  background-color: #f4f6f6;
+  width: 85%;
+  margin: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
 }
-.profile_info_container{
-    width: 100%;
-    display: flex;
+.profile_info_container {
+  width: 100%;
+  display: flex;
 }
-.profile_info_image_container{
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
+.profile_info_image_container {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
 }
-.profile_info_image_container img{
-    width: 20px;
-    height: 20px;
+.profile_info_image_container img {
+  width: 20px;
+  height: 20px;
 }
-.profile_info{
-    margin-left: 10px;
+.profile_info {
+  margin-left: 10px;
 }
 
-.profile_info p:nth-child(1){
-    font-size: 12px;
+.profile_info p:nth-child(1) {
+  font-size: 12px;
 }
-.profile_info p:nth-child(2){
-    font-size: 14px;
-    font-weight: bold;
+.profile_info a,
+p:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
 }
-.hr1{
-    height: 1px;
-    width: 90%;
-    background-color: #BFD8FF ;
-    margin: 5px;
+.hr1 {
+  height: 1px;
+  width: 90%;
+  background-color: #bfd8ff;
+  margin: 5px;
 }
-.download_container{
-    display: flex;
-    background-color: #7DD3ED;
-    padding: 10px 0;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+.download_container {
+  display: flex;
+  background-color: #7dd3ed;
+  padding: 10px 0;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
-.download_container:hover{
-    cursor: pointer;
+.download_container:hover {
+  cursor: pointer;
 }
-.download_container img{
-    height: 20px;
-    width: 20px;
+.download_container img {
+  height: 20px;
+  width: 20px;
 }
-.download_container p{
-    margin-left: 10px;
-    color: #F4F6F6;
-    font-weight: bolder;
+.download_container p {
+  margin-left: 10px;
+  color: #f4f6f6;
+  font-weight: bolder;
 }
-
+.resumedownload {
+  text-decoration: none;
+  width: 70%;
+}
 
 @media screen and (max-width: 992px) {
   .profile_container {
     order: 1;
     margin-top: 70px;
-
   }
 }
 
 @media screen and (max-width: 367px) {
-    .profile_info p:nth-child(2){
-        font-size: 10px;
-    }
+  .profile_info p:nth-child(2) {
+    font-size: 10px;
   }
-  
+}
