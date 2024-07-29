@@ -30,10 +30,14 @@
 }
 .link_value_container:hover {
  cursor: pointer;
+ background-color: #dfe5e5;
 }
 .active_link {
   background-color: #bfd8ff;
   color: white;
+}
+.active_link:hover {
+  background-color: #bfd8ff;
 }
 .link_value_container img {
   width: 30px;

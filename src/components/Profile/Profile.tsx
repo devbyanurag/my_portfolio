@@ -9,7 +9,7 @@ import emailImg from '../../assets/images/social/email.png'
 import locImg from '../../assets/images/social/loc.png'
 import calImg from '../../assets/images/social/cal.png'
 import downloadImg from '../../assets/images/social/download.png'
-import resumePdf from '../../assets/datafiles/ANURAG CHHETRI resume.pdf'
+import resumePdf from '../../assets/datafiles/resume.pdf'
 
 
 
@@ -21,7 +21,7 @@ const Profile = () => {
             <div className={styles.profile_info_1}>
                 <h2>Anurag Chhetri</h2>
                 <div className={styles.role_container}>
-                    <p>Web Developer</p>
+                    <p>Software Developer</p>
 
                 </div>
                 <div className={styles.socialHandleContainer}>

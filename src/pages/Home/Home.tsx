@@ -16,15 +16,9 @@ const Home = () => {
             <img src={bgImg} alt="bg" className={styles.bgImg} />
             <div className={styles.content_container}>
                 <Profile />
-                <ProfileData selectedComponent={activeLinkId}/>
+                <ProfileData selectedComponent={activeLinkId} />
                 <Links activeLinkId={activeLinkId} onLinkClick={handleLinkClick} />
-
-
-
-
             </div>
-
-
         </div>
     )
 }
