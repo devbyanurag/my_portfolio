@@ -2,13 +2,14 @@ import styles from './Overview.module.css'
 import frontendImg from '../../../assets/images/whatido/frontend.png'
 import backendImg from '../../../assets/images/whatido/backend.png'
 import aiImg from '../../../assets/images/whatido/ai.png'
+import { getExperienceFromDate } from '../../../Utils/commonFunctions'
 
 
 const Overview = () => {
   return (
     <div className={styles.container}>
       <p className={styles.overview}>
-        Experienced Software Engineer with 2 years of expertise in React, Node.js, and TypeScript, adept at
+        Experienced Software Engineer with {getExperienceFromDate("14/02/2022")} years of expertise in React, Node.js, and TypeScript, adept at
         developing high-performance web applications. Proficient in AWS services, Python, ML, and large
         language models, with a focus on advancing Generative AI in language translation, content generation,
         and conversation systems through a project centered around Large Language Models (LLMs).
