@@ -2,8 +2,8 @@
 
 Welcome to the repository for my **Portfolio Website**, built to showcase my skills, experience, and projects as a Fullstack Developer. This website reflects my expertise in modern web technologies, including React, TypeScript, Tailwind CSS, and AWS.
 
-![Portfolio Website Preview](assets/git/website-preview.png)
-![Skills Website Preview](assets/git/skills.png)
+![Portfolio Website Preview](https://github.com/devbyanurag/my_portfolio/blob/main/src/assets/git/website-preview.png)
+![Skills Website Preview](https://github.com/devbyanurag/my_portfolio/blob/main/src/assets/git/skills.png)
 
 ## Features
 - **Responsive Design**: Fully responsive, ensuring a seamless experience across all devices.
