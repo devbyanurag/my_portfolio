@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my **Portfolio Website**, built to showcase my skills, experience, and projects as a Fullstack Developer. This website reflects my expertise in modern web technologies, including React, TypeScript, Tailwind CSS, and AWS.
 
-Currently, two official plugins are available:
+![Portfolio Website Preview](assets/git/website-preview.png)
+![Skills Website Preview](assets/git/skills.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design**: Fully responsive, ensuring a seamless experience across all devices.
+- **Project Showcase**: Displays my professional projects with detailed descriptions and achievements.
+- **Skills Section**: Highlights my technical expertise in frontend, backend, databases, and cloud services.
+- **Contact Information**: Provides easy access to connect via email, GitHub, or LinkedIn.
+- **Generative AI Integration**: Demonstrates my passion for AI/ML with interactive AI features.
 
-## Expanding the ESLint configuration
+## Tech Stack
+### Frontend:
+- React
+- TypeScript
+- Tailwind CSS
+- Redux
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Backend:
+- Node.js
+- Express.js
 
-- Configure the top-level `parserOptions` property like this:
+### Database:
+- MongoDB
+- DynamoDB
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Cloud Services:
+- AWS (S3, DynamoDB, Bedrock, RDS, EC2, Interactive Video Service)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Other Tools:
+- Git & GitHub
+- CI/CD Pipelines
+
+
+## Contact
+Feel free to reach out:
+- **Email**: [anuragchhetri49@gmail.com](mailto:anuragchhetri49@gmail.com)
+- **GitHub**: [GitHub Profile](https://github.com/devbyanurag)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/anuragchhetri/)

@@ -7,7 +7,7 @@ import phoneImg from '../../assets/images/social/phone.png'
 import emailImg from '../../assets/images/social/email.png'
 
 import locImg from '../../assets/images/social/loc.png'
-import calImg from '../../assets/images/social/cal.png'
+// import calImg from '../../assets/images/social/cal.png'
 import downloadImg from '../../assets/images/social/download.png'
 import resumePdf from '../../assets/datafiles/resume.pdf'
 
