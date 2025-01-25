@@ -1,24 +1,18 @@
 export function getExperienceFromDate(dateString: string) {
     // Parse the input date string
     const [day, month, year] = dateString.split('/').map(Number);
-    const startDate = new Date(year, month - 1, day);
+    const startDate = new Date(year, month - 1, day); // Adjust for 0-based month
     const today = new Date();
 
-    // Calculate the difference in years, months, and days
-    let years = today.getFullYear() - startDate.getFullYear();
-    let months = today.getMonth() - startDate.getMonth();
-    let days = today.getDate() - startDate.getDate();
+    // Total difference in milliseconds
+    const differenceInMs = today.getTime() - startDate.getTime();
 
-    // Adjust months and years if necessary
-    if (days < 0) {
-        months--;
-        days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
-    }
-    if (months < 0) {
-        years--;
-        months += 12;
-    }
+    // Calculate total days between the dates
+    const totalDays = differenceInMs / (1000 * 60 * 60 * 24);
 
-    return `${years}.${months}`;
+    // Calculate years as a decimal by dividing total days by 365.25 (accounting for leap years)
+    const experienceInYears = totalDays / 365.25;
+
+    // Return the result rounded to 2 decimal places
+    return experienceInYears.toFixed(2);
 }
-

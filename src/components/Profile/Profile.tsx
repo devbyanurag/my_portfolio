@@ -72,7 +72,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className={styles.hr1}></div>
-                <div className={styles.profile_info_container}>
+                {/* <div className={styles.profile_info_container}>
                     <div className={styles.profile_info_image_container}>
                         <img src={calImg} alt="dob" />
                     </div>
@@ -80,7 +80,7 @@ const Profile = () => {
                         <p>DOB</p>
                         <p>03/02/2000</p>
                     </div>
-                </div>
+                </div> */}
             </div>
             <a className={styles.resumedownload} href={resumePdf} download><div className={styles.download_container}>
                 <img src={downloadImg} alt="download" />

@@ -9,10 +9,9 @@ const Overview = () => {
   return (
     <div className={styles.container}>
       <p className={styles.overview}>
-        Experienced Software Engineer with {getExperienceFromDate("14/02/2022")} years of expertise in React, Node.js, and TypeScript, adept at
-        developing high-performance web applications. Proficient in AWS services, Python, ML, and large
-        language models, with a focus on advancing Generative AI in language translation, content generation,
-        and conversation systems through a project centered around Large Language Models (LLMs).
+        Experienced Software Developer with {getExperienceFromDate("14/02/2022")} years of expertise crafting responsive web applications using React, TypeScript, and
+        modern UI technologies. Skilled in Redux, Tailwind CSS, Node.js, MongoDB, and AWS, with a focus on usercentric, scalable solutions. Passionate about integrating Generative AI, AI/ML, and LLMs to drive technological
+        innovation. Excels in collaborative environments, delivering high-performance, maintainable digital experiences.
       </p>
       <h3 className={styles.whatIdo}>What I Do!</h3>
       <div className={styles.whatIdo_container}>
